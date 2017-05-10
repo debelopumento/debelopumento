@@ -1,7 +1,7 @@
 const ProjectsInfo = [
     {
         name: "Virtual Flashcards",
-        description: "A web app that helps the user create, edit, review and orgaznize virtual flashcards.",
+        description: "A web app that helps the user create, edit, review and organize virtual flashcards.",
         demo: "https://virtual-flashcards.herokuapp.com/",
         gitHub: "https://github.com/debelopumento/flashcards",
         techUsed: [
