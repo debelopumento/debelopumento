@@ -36,6 +36,12 @@ html, body {
 	margin: 25px;
 }
 
+.intro {
+	color: white;
+	margin: auto;
+	width: 60%;
+}
+
 .projectInfoContainer {
 	margin-left: 15px;
 }
@@ -48,9 +54,15 @@ html, body {
 }
 
 footer {
-	color: #aaa;
+	background-color: #e85568;
+	color: white;
 	font-size: 12px;
 	text-align: center;
+}
+
+.footerText {
+	margin-bottom: 0;
+	padding-bottom: 0;
 }
 
 @media (max-width: 500px) {
@@ -67,5 +79,8 @@ footer {
 	}
 	.projectTitle {
 		font-size: 17px;
+	}
+	.intro {
+		width: 80%;
 	}
 }

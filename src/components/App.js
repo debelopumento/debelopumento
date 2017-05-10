@@ -34,8 +34,9 @@ class App extends PureComponent {
               Di Ye
             </h3>
             <img className="thumbnail" src={img} />
-
-            <h5 style={{ display: "block" }}>
+            <h4 className="intro">
+              Full stack engineer passionate about creating, learning and building things, 3D graphic artist, game designer, strategic thinker.
+            </h4> <h5 style={{ display: "block" }}>
               <a style={{ color: "white" }} href="mailto:imdiye@gmail.com">
                 glamorousPull@gmail.com
               </a>
@@ -43,10 +44,6 @@ class App extends PureComponent {
 
           </div>
           <Nav />
-          <h5 style={{ color: "white", margin: 15 }}>
-            Full stack engineer passionate about creating, learning and building things, 3D graphic artist, game designer, strategic thinker.
-          </h5>
-
         </div>
         <Summary />
 
