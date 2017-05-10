@@ -40,6 +40,7 @@ html, body {
 	color: white;
 	margin: auto;
 	width: 60%;
+	font-size: 22px;
 }
 
 .projectInfoContainer {
@@ -51,6 +52,11 @@ html, body {
 	margin-bottom: 5px;
 	font-size: 20px;
 	color: #865c74;
+}
+
+.artContainer {
+	display: flex;
+	justify-content: center;
 }
 
 footer {
@@ -82,5 +88,8 @@ footer {
 	}
 	.intro {
 		width: 80%;
+	}
+	.artContainer {
+		display: block;
 	}
 }

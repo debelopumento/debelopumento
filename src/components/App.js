@@ -34,13 +34,13 @@ class App extends PureComponent {
               Di Ye
             </h3>
             <img className="thumbnail" src={img} />
-            <h4 className="intro">
+            <p className="intro">
               Full stack engineer passionate about creating, learning and building things, 3D graphic artist, game designer, strategic thinker.
-            </h4> <h5 style={{ display: "block" }}>
+            </p> <h4 style={{ display: "block" }}>
               <a style={{ color: "white" }} href="mailto:imdiye@gmail.com">
                 glamorousPull@gmail.com
               </a>
-            </h5>
+            </h4>
 
           </div>
           <Nav />

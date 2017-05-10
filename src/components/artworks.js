@@ -23,13 +23,55 @@ class Artworks extends PureComponent {
 				>
 					Art
 				</p>
-				<div style={{ textAlign: "center" }}>
-					<a href="https://vimeo.com/67862861" target="blank">
-						<img className="thumbnail-art" src={art_3d} />
-					</a>
-					<a href="https://vimeo.com/192746615" target="blank">
-						<img className="thumbnail-art" src={art_game} />
-					</a>
+				<div className="artContainer">
+					<div style={{ textAlign: "center", margin: 35 }}>
+						<a href="https://vimeo.com/67862861" target="blank">
+							<img className="thumbnail-art" src={art_3d} />
+						</a>
+						<a
+							href="https://vimeo.com/67862861"
+							target="blank"
+							style={{ color: "#6eb7a8", marginTop: 0 }}
+						>
+
+							<h3 style={{ color: "#6eb7a8", marginTop: 0 }}>
+								3D Art
+							</h3>
+						</a>
+						<p
+							style={{
+								color: "#6eb7a8",
+								marginTop: 0,
+								paddingTop: 0
+							}}
+						>
+							3D modeling and lighting works on films and animations.
+						</p>
+					</div>
+					<div style={{ textAlign: "center", margin: 35 }}>
+						<a href="https://vimeo.com/192746615" target="blank">
+							<img className="thumbnail-art" src={art_game} />
+						</a>
+						<a
+							href="https://vimeo.com/192746615"
+							target="blank"
+							style={{ color: "#6eb7a8", marginTop: 0 }}
+						>
+
+							<h3 style={{ color: "#6eb7a8", marginTop: 0 }}>
+								Game Art
+							</h3>
+						</a>
+						<p
+							style={{
+								color: "#6eb7a8",
+								marginTop: 0,
+								paddingTop: 0
+							}}
+						>
+							3D modeling, game environment designs and Unity realtime lighting.
+						</p>
+					</div>
 
 				</div>
 			</div>

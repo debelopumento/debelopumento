@@ -59,7 +59,7 @@ class Activities extends PureComponent {
                 <div
                     style={{
                         margin: 15,
-                        marginBottom: 15,
+                        marginBottom: 80,
                         textAlign: "center"
                     }}
                 >
