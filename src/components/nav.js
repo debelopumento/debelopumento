@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import reactCSS from "reactcss";
 import githubImg from "../../public/images/GitHub-Mark-Light-64px.png";
 import linkedInImg from "../../public/images/linkedIn.png";
+import messengerImg from "../../public/images/facebookMessengerIcon.png";
 const styles = reactCSS({
   default: {
     listItem: {
@@ -40,6 +41,12 @@ const Nav = () => (
         target="_blank"
       >
         <img src={linkedInImg} style={styles.icon} />
+
+      </a>
+    </li>
+    <li style={styles.listItem}>
+      <a style={styles.navLink} href="https://m.me/nietn0dig" target="_blank">
+        <img src={messengerImg} style={styles.icon} />
 
       </a>
     </li>
